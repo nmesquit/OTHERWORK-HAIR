@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OTHERWORK HAIR</title><meta name="description" content="Business software for independent hairstylists."><link rel="stylesheet" href="/styles.css"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#111111"><link rel="apple-touch-icon" href="/icon.svg"></head><body>
+<div id="auth-gate" class="auth-gate">
+  <div class="auth-card">
+    <div class="auth-mark">OTHERWORK</div><div class="auth-sub">HAIR</div>
+    <h1>Do the hair.<br>We'll handle the other work.</h1>
+    <p>Local MVP sign-in</p>
+    <label>Email<input id="login-email" value="demo@otherwork.local"></label>
+    <label>Password<input id="login-password" type="password" value="otherworkdemo"></label>
+    <button id="login-btn">SIGN IN</button>
+    <small>Demo account only. Production authentication will use a cloud identity provider.</small>
+    <div id="login-error"></div>
+  </div>
+</div><div class="app-shell"><aside class="sidebar"><div class="brand-wrap"><div><div class="brand-name">OTHERWORK</div><div class="brand-sub">HAIR</div></div></div><nav id="nav"></nav><div class="goal-card"><div class="mini-label">THE OTHER WORK</div><div class="goal-copy">You do the hair.<br>We handle the other work.</div></div></aside><main class="main"><header class="topbar"><div><div class="eyebrow">MONDAY, AUGUST 24</div><h1 id="page-title">TODAY</h1></div><button class="btn primary" id="new-appointment">+ New appointment</button></header><div id="view"></div></main></div><dialog id="modal" class="modal"><form method="dialog" id="modal-content"></form></dialog><div id="toast" class="toast"></div><script src="/app.js"></script><script>
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}
+</script></body></html>

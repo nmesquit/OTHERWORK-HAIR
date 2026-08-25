@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: otherwork-hair
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: UPLOAD_DIR
+        value: /var/data/uploads
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: otherwork-data
+      mountPath: /var/data
+      sizeGB: 1
