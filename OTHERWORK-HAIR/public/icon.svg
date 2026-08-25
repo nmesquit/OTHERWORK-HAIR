@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<rect width="512" height="512" rx="96" fill="#111111"/>
-<rect x="44" y="44" width="424" height="424" rx="72" fill="#f4efe4"/>
-<text x="256" y="245" text-anchor="middle" font-family="Arial Black,Arial" font-size="86" font-weight="900" fill="#111111">OTHER</text>
-<text x="256" y="330" text-anchor="middle" font-family="Arial Black,Arial" font-size="86" font-weight="900" fill="#c74324">WORK</text>
-<text x="256" y="387" text-anchor="middle" font-family="Arial,Helvetica" font-size="32" font-weight="900" letter-spacing="10" fill="#244d9b">HAIR</text>
-</svg>
